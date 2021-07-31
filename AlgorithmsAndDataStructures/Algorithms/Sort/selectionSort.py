@@ -1,9 +1,9 @@
 #Written by Ryan Helgoth
 
 '''
-Worst case: O(n^2)
-Average case: O(n^2)
-Best case: O(n^2)
+Worst case: n^2
+Average case: n^2
+Best case: n^2
 '''
 def selectionSort(nums):
     length = len(nums)
