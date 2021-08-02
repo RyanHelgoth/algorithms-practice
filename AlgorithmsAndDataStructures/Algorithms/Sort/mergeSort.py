@@ -10,10 +10,13 @@ def mergeSort(nums):
     if length <= 1:
         return nums
     else: 
+        #Splits lists
         left = nums[:length//2]
         right = nums[length//2:]
         left = mergeSort(left)
         right = mergeSort(right)
+
+        #Merges lists
         return merge(left, right)
 
 def merge(left, right):
