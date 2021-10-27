@@ -1,10 +1,6 @@
 #Written by Ryan Helgoth
-class Solution(object):
-    def fizzBuzz(self, n):
-        """
-        :type n: int
-        :rtype: List[str]
-        """
+class Solution:
+    def fizzBuzz(self, n: int) -> List[str]:
         answer = []
         
         for i in range(1, n+1):
