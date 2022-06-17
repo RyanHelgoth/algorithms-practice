@@ -19,4 +19,4 @@ class Solution:
             bestLen = max(bestLen, currLen)
             right += 1
                 
-        return bestLen
+        return bestLen 
